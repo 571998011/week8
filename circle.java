@@ -1,25 +1,17 @@
 class circle {
-	private int radians;
-	private int area;
+	private double radians;
+	private double area;
 	
-	void setradians(int r) {
-		this.radians = r;
+	public double getradians(){
+		return radians;
 	}
-	
-	void setarea(int a) {
-		this.area = a;
+	public void setradians(double radians) {
+		this.radians = radians;
 	}
-	
-	void fixra() {
-		System.out.println("this radians : ");
+	public double area(){
+		return (this.radians*this.radians*3.14159);
 	}
-	
-	void fisar() {
-		System.out.println("this area : ");
-	}
-
-	@Override	
 	public String toString() {
-		return this.radians + " this area : ";
+		return " "+this.radians+"\n";
 	}
 }
