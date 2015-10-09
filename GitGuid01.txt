@@ -9,3 +9,8 @@ git remote -v
 
 # ลบ upstream ทิ้ง
 git remote rm upstream
+
+ทำแบบฝึกหัดที่ 1 เสร็จแล้ว
+git add -A
+git commit -m "Finished Exercise1"
+git push
